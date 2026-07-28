@@ -57,7 +57,7 @@ export interface Operator {
   photo: string | null;
   license_front: string | null;
   license_back: string | null;
-  status: 'active' | 'inactive';
+  status: 'active' | 'inactive' | 'freelance';
   first_name: string;
   last_name: string;
   birth_date: string;
